@@ -1,0 +1,144 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+
+.active{
+    color: rgb(201, 131, 0);
+}
+
+.container{
+    background-color:rgb(12, 12, 12);
+    text-align: center;
+}
+ .container ul{
+    display: inline-flex;
+   list-style: none;
+}
+
+.container ul li{
+    width: 200px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.container ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.active,.container ul li:hover{
+    background-color:rgb(16, 187, 16);
+    border-radius: 3px;
+}
+.submenu-1, .submenu-2, .submenu-3 {
+    display: none;
+}
+
+.container ul li:hover .submenu-1,
+.container ul li:hover .submenu-2,
+.container ul li:hover .submenu-3 {
+    display: block;
+    position: absolute;
+    background-color: rgb(0, 100, 0);
+    margin-top: 1%;
+    margin-left: -10px;
+}
+
+
+.container ul li:hover .submenu-1 ul, .submenu-2 ul{
+    display: block;
+}
+ .container ul li:hover .submenu-1 ul li, .submenu-2 ul li {
+    border-bottom: 1px solid white;
+    width: 190px;
+    padding: 10px ;
+}
+
+.container li:hover .submenu-2{
+   display:block;
+}
+
+nav{
+  height: 74px;     
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.logo{
+  width: auto;
+  height: 99px;
+  margin-left: 29px;
+  position: relative;
+  top: 1px;
+}
+
+.logo-image{
+  height: 90px;  
+  width: auto;
+  object-fit: contain;
+  margin-right: 15px;
+  height: 90px;
+  width: auto;
+  object-fit: contain;
+  margin-right: 15px;
+  display: inline-block;
+}
+
+.people{
+    width: 39%;
+    margin-top: 0%;
+    
+}
+
+body{
+  background: linear-gradient(to Left, #59bdd8, #8b9311);
+}
+
+.image-2{
+    width: 100%;
+}
+
+.text{
+    display: block;
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+    color: #080a0d;
+    padding-top: 2%;
+    padding-left: 29%;
+}
+.text-2{
+    font-family: 'Poppins', sans-serif;
+    padding-top: 2%;
+    padding-left: 0%;
+    text-align: center;
+}
+
+
+.Apply{
+  display: inline-block;
+  margin-top: 5%;
+  margin-left: 34%;
+  border: dotted #f3ff4f;
+  border-radius: 20%;
+  background-color: #1e7d11;
+  padding: 12px 30px;
+  background: #1abc9c;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.Apply:hover{
+  background: #16a085;
+  transform: scale(1.05);
+}
+

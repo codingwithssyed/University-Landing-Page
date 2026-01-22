@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #43cea2, #185a9d);
+}
+
+.thankyou-container{
+  background: #ffffff;
+  padding: 50px;
+  width: 500px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+  animation: fadeUp 1s ease;
+}
+
+.check-icon{
+  font-size: 60px;
+  color: #2ecc71;
+  margin-bottom: 20px;
+}
+
+.thankyou-container h1{
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+.thankyou-container p{
+  color: #555;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.home-btn{
+  text-decoration: none;
+  padding: 12px 30px;
+  background: #2ecc71;
+  color: #ffffff;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.home-btn:hover{
+  background: #27ae60;
+  transform: scale(1.05);
+}
+
